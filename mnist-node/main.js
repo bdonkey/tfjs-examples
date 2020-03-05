@@ -70,6 +70,7 @@ parser.addArgument('--batch_size', {
 })
 parser.addArgument('--model_save_path', {
   type: 'string',
+  defaultValue: '/Users/scottschmidt/scottdev/tfjs-examples/mnist-node',
   help: 'Path to which the model will be saved after training.'
 });
 const args = parser.parseArgs();
